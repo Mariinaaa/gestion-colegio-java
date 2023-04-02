@@ -1,4 +1,6 @@
 package edu.ucj.programacion.pec1.marina_amaya;
+//Link del repositorio que he creado en github:https://github.com/Mariinaaa/-pec1_marina_amaya.git
+//Todas estas clases estan guardadas en la carpera src del repositorio.
 
 import java.util.Scanner;
 
@@ -25,7 +27,7 @@ public class GestionColegios {
 	    //Creamos los alumnos
 	    Alumno[] alumnos = UtilsColegio.crearAlumnos(numAlumnos);
 	    
-	    //Asignamos alumnos al colegio
+	    //Asignamos los alumnos al colegio
 	    for(Alumno alumno : alumnos) {
 	    	colegio.asignarAlumno(alumno);
 	    }
